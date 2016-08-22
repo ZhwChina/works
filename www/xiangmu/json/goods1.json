@@ -1,0 +1,17 @@
+[
+    {
+        
+            "imgs":[{"src":"imgs/goods2_1.jpg"},{"src":"imgs/goods2_2.jpg"},{"src":"imgs/goods2_3.jpg"},{"src":"imgs/goods2_4.jpg"},{"src":"imgs/goods2_5.jpg"},{"src":"imgs/goods2_6.jpg"},{"src":"imgs/goods2_7.jpg"},{"src":"imgs/goods2_8.jpg"},{"src":"imgs/goods2_9.jpg"},{"src":"imgs/goods2_10.jpg"}],
+            "names":[{"types":"NIKE 耐克 新款 男子"},{"types":"NIKE 耐克 男子"},{"types":"匹克情侣款 一体费"},{"types":"阿迪达斯2016新款"},{"types":"NIKE 耐克新款"},{"types":"NIKE 低帮减震"},{"types":"NIKE 耐克 新款 男子"},{"types":"NIKE 耐克 新款 男子 "},{"types":"NIKE 耐克"},{"types":"NIKE 耐克匹克情侣款"},{"types":"NIKE 耐克 新款 女子"},{"types":"NIKE AIR MAX"}],
+            "prices":[{"pri":"589"},{"pri":"489"},{"pri":"389"},{"pri":"289"},{"pri":"189"},{"pri":"989"},{"pri":"889"},{"pri":"789"},{"pri":"689"},{"pri":"589"}]
+        
+    },
+    {
+       
+            "imgs":[{"src":"imgs/goods3_1.jpg"},{"src":"imgs/goods3_2.jpg"},{"src":"imgs/goods3_3.jpg"},{"src":"imgs/goods3_4.jpg"},{"src":"imgs/goods3_5.jpg"},{"src":"imgs/goods3_6.jpg"},{"src":"imgs/goods3_7.jpg"},{"src":"imgs/goods3_8.jpg"},{"src":"imgs/goods3_9.jpg"},{"src":"imgs/goods3_10.jpg"}],
+            "names":[{"types":"NIKE 耐克 AIR MAX"},{"types":"NIKE 耐克 男子"},{"types":"匹克情一体费"},{"types":"阿迪达斯2016新款"},{"types":"NIKE 耐克 2016新款"},{"types":"NIKE 低帮减震 男子"},{"types":"NIKE 耐克 新款 男子"},{"types":"NIKE 耐克 新款 男子"},{"types":"NIKE 耐克 2016新款"},{"types":"NIKE 耐克匹克情侣款"},{"types":"NIKE 耐克 新款 女子"},{"types":"NIKE AIR MAX"}],
+            "prices":[{"pri":"589"},{"pri":"489"},{"pri":"389"},{"pri":"289"},{"pri":"189"},{"pri":"989"},{"pri":"889"},{"pri":"789"},{"pri":"689"},{"pri":"589"}]
+        
+    }
+    
+]

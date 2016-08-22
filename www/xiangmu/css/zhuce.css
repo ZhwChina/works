@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f5f5f5;font-size: 12px;color: #666;font-family: "微软雅黑";}
+#mainbox{width:1090px;height:600px;margin:0 auto;background:#fff}
+#Logobox{height:160px;width:100%;background:#f5f5f5}
+#Logobox img{margin:40px 40px 40px 85px;float:left}
+#Logobox p{margin:70px 0 0 10px;float:left;font-size:22px}
+#centerBox{width:1090px;height:370px;margin:0 auto;background:#fff;padding:30px 0;position:relative;border:1px solid #999}
+#centerBox p{position:absolute;top:400px;left:200px}
+#centerBoxL{width:350px;height:230px;float:left;background:#fff;padding:10px 40px 40px;margin-left:50px}
+#centerBoxR{width:269px;height:240px;float:right;border-left:1px dashed #999;padding:10px 0 0 30px;font-style:normal}
+#centerBoxR i{font-style:normal;margin-right:10px}
+#centerBoxL ul{}
+#centerBoxL ul li{line-height:40px;font-size:18px;}
+#centerBoxL input{width:250px;height:25px;float:right}
+#centerBoxL span{margin-right:10px;}
+#centerBoxR div{width:80px;height:20px;background:#f77118;margin-top:10px;font-size:14px;border:1px solid #C30}
+#centerBoxR div img{float:left;margin-top:3px}
+#centerBoxR a{color:#fff;font-size:14px}
+#centerBoxR span{line-height:30px}
+#centerBoxR a:hover{color:#0FC}
+
+#checkbox{width:230px;height:150px;float:right;margin-top:30px;}
+#checkbox span{line-height:20px}
+#checkbox #little{width:15px;height:15px;float:left}
+#checkbox #postcheck {height:50px;background:#09F;color:#fff;border:none;margin-top:20px}

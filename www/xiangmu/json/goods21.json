@@ -1,0 +1,17 @@
+[
+    {
+        
+            "imgs":[{"src":"imgs/goods5_1.jpg"},{"src":"imgs/goods5_2.jpg"},{"src":"imgs/goods5_3.jpg"},{"src":"imgs/goods5_4.jpg"},{"src":"imgs/goods5_5.jpg"},{"src":"imgs/goods5_6.jpg"},{"src":"imgs/goods5_7.jpg"},{"src":"imgs/goods5_8.jpg"},{"src":"imgs/goods5_9.jpg"},{"src":"imgs/goods5_10.jpg"}],
+            "names":[{"types":"时尚新品"},{"types":"NIKE 耐克时尚新品"},{"types":"时尚新品 一体费"},{"types":"时尚新品2016新款"},{"types":"NIKE 时尚新品"},{"types":"NIKE 低帮减震"},{"types":"NIKE 耐克 时尚新品"},{"types":"NIKE 时尚新品"},{"types":"时尚新品新款"},{"types":"NIKE 时尚新品 一体费"},{"types":"NIKE 耐克 新款 女子 "},{"types":"NIKE AIR MAX"}],
+            "prices":[{"pri":"589"},{"pri":"489"},{"pri":"389"},{"pri":"289"},{"pri":"189"},{"pri":"989"},{"pri":"889"},{"pri":"789"},{"pri":"689"},{"pri":"589"}]
+        
+    },
+    {
+       
+            "imgs":[{"src":"imgs/goods5_11.jpg"},{"src":"imgs/goods5_12.jpg"},{"src":"imgs/goods5_13.jpg"},{"src":"imgs/goods5_14.jpg"},{"src":"imgs/goods5_15.jpg"},{"src":"imgs/goods5_16.jpg"},{"src":"imgs/goods5_17.jpg"},{"src":"imgs/goods5_18.jpg"},{"src":"imgs/goods5_19.jpg"},{"src":"imgs/goods5_20.jpg"}],
+            "names":[{"types":"水钻网鞋 AIR MAX"},{"types":"NIKE 耐克 男子"},{"types":"水钻网鞋  一体费"},{"types":"阿迪达斯2016新款"},{"types":"水钻网鞋 新款"},{"types":"NIKE 低帮减震 男子"},{"types":"NIKE 耐克水钻网鞋 "},{"types":"水钻网鞋  MAX"},{"types":"NIKE 水钻网鞋 "},{"types":"NIKE 水钻网鞋 "},{"types":"NIKE 水钻网鞋 女子 AIR MAX"},{"types":"NIKE AIR MAX"}],
+            "prices":[{"pri":"589"},{"pri":"489"},{"pri":"389"},{"pri":"289"},{"pri":"189"},{"pri":"989"},{"pri":"889"},{"pri":"789"},{"pri":"689"},{"pri":"589"}]
+        
+    }
+    
+]

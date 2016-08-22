@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/Reset.css">
+<link rel="stylesheet" type="text/css" href="css/zhuce.css">
+<script src="src/jquery-1.11.1.min.js"></script>
+<script src="src/zhuce.js"></script>
+<script>
+    $(document).ready(function(){
+         sign();
+    })
+    </script>
+</head>
+
+<body>
+<div id="mainbox">
+	<div id="Logobox">
+    	<a href="index.html"><img src="imgs/zhucelogo.jpg"></a><p>欢迎注册</p>
+    </div>
+    <div id="centerBox">
+    	<div id="centerBoxL">
+        	<ul>
+        	<li><span>账户名&nbsp;:</span><input type="text" id="names" placeholder="邮箱/手机号"></li>
+            <li><span>设置密码&nbsp;:</span><input type="password" id="pw1"></li>
+            <li><span>确认密码&nbsp;:</span><input type="password" id="pw2"></li>
+            </ul>
+            <div id="checkbox">
+            	<input type="checkbox" id="little"><span>我已阅读并同意<a href="#">《排鞋服务协议》</a></span>
+                <input type="button" value="同意并提交" id="postcheck">
+            </div>
+        </div>
+        <div id="centerBoxR">
+        	<ul>
+            	<i>我已有拍鞋网账户</i>
+                <span>现在就登陆</span><div><a href="denglu.html"><img src="imgs/youjiantou.jpg">立即登录</a></div>
+            </ul>
+        </div>
+        <p>Copyright © 2007-2016 Paixie.net All Rights Reserved 增值电信业务经营许可证：闽B2-20110084</p>
+    </div>
+</div>
+
+</body>
+</html>

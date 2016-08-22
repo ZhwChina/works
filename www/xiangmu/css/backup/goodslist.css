@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body {background: #f8f8f8;font-size: 12px;color: #666;font-family: "微软雅黑";
+}
+
+
+#mainbox{margin:0 auto;width:1190px;}
+#topnav{background:#fafafa;width:100%;height:33px;margin:0 auto;border-bottom:1px solid #eeeeee;padding:0 10px;position:relative;}
+#topnav img{float:left;margin-top:3px}
+#ulL li{float:left;text-align:center;font-size:12px;color:#333;margin-right:5px;line-height:33px;margin-bottom:5px}
+#topnav a span:hover{color:#F60}
+#topnav span{line-height:32px;color:#333;}
+#topnav i{font-style:normal;}
+#topnav #ulL img{vertical-align:center;margin:5px 5px 0 5px;}
+#topnav a{color:#333;font-size:12px;margin:0 5px}
+#ulR{float:right;position:relative;margin-right:30px}
+#ulR li{float:left;text-align:center;font-size:12px;color:#333;line-height:33px;margin-bottom:5px;margin-left:10px}
+#ulR li a{margin-left:5px}
+
+#ulR li img{clear:both;margin:5px 0 5px 0}
+#navhidebox{width:378px;height:100px;position:absolute;display:none;background:#fff;top:33px;left:780px;border:1px solid #666;text-align:center;z-index:3}
+#topnav .hidespan{color:#F60;font-size:12px;font-weight:700;line-height:100px}
+#topnav .more1{border:1px solid #CCC;text-align:center;position:absolute;top:33px;right:238px;display:none;z-index:3;background:#fff}
+#topnav .more1 li{width:85px;margin:0;line-height:30px;}
+#topnav .more2{border:1px solid #CCC;text-align:center ;position:absolute;top:33px;right:40px;display:none;z-index:3;background:#fff}
+#topnav .more2 li{width:65px;margin:0;line-height:30px;}
+#topnav .more2 li a{color:#333}
+/**********************************logo****************/
+#logobox{margin:0 auto;width:100%;height:135px;background:#fffcff;padding:0 10px;position:relative;overflow:hidden;border-bottom:2px solid #f60}
+#logobox .logoimg{float:left;margin:8px}
+#searchBox{width:500px;height:26px;line-height:20px;font-size:14px;position:absolute;top:20px;left:400px;border:2px solid #F60}
+#searchBox img{float:left;}
+#searchGoods{float:left;width:396px;height:20px}
+#search{float:right;width:63px;background:#F60;height:20px;text-align:center;padding:3px}
+#search a{color:#fff;font-size:15px;letter-spacing:5px;font-weight:800}
+#searchList{position:absolute;top:30px;}
+#searchList li{float:left;margin:0 10px 0 10px}
+#searchList li .redList{color:#F00;font-size:14px}
+#searchList a{color:#999;font-size:12px}
+#wechat{float:right;height:105px;margin-right:70px;margin-top:29px}
+
+#logobottom{width:199px;height:19px;position:absolute;bottom:0;left:0;background:#ff4300;padding:8px 10px;text-align:center}
+#logobottom img{float:left;margin-left:15px}
+#logobottom a{line-height:19px;float:left;font-weight:600;color:#fff}
+#logoUL{position:absolute;bottom:0;left:220px}
+#logoUL li{float:left;width:90px;height:25px;text-align:center;padding-top:10px}
+#logoUL li a{color:#333;font-size:16px;margin:0;}
+#logoUL li:hover{background:#FFACAC}
+#youliao{position:absolute;top:80px;left:420px}
+#xinban{position:absolute;top:80px;left:515px}
+
+#backindex{width:100%;height:30px;margin:0 auto}
+#backindex span{font-size:12px;color:#666;line-height:50px;margin-left:190px}
+#backindex i{font-style:normal;color:#C00;border:1px dashed #c00}
+#backindex a{font-size:12px;color:#666}
+
+#sort{width:1000px;height:70px;margin:0 auto;border-left:1px solid #999;border-bottom:1px solid #999;border-right:1px solid #999;margin-top:20px;}
+#sortBox{width:100%;height:35px;border-top:1px solid #999;background:#999;position:relative;}
+#sortBox ul{margin-left:180px}
+#sortBox a:hover{color:#f60}
+#sortBox img{margin-left:10px}
+#sortBox li{float:left;line-height:35px;margin-left:20px}
+#sortBox input{width:70px;margin:7px 20px 0 20px}
+#sortBox a{color:#fff}
+#more1{position:absolute;border:1px solid #999;top:261px;left:485px;height:50px;padding:0;background:#FFF;text-align:center;margin-left:0;display:none;}
+#sortBox #more1 li{clear:both;line-height:20px;}
+#more2{position:absolute;border:1px solid #999;top:261px;left:552px;height:50px;padding:0;background:#FFF;text-align:center;margin-left:0;display:none}
+#sortBox #more2 li{clear:both;line-height:20px}
+#checkBox{width:980px;height:35px;border-top:1px solid #999;text-align:center}
+
+
+
+#goodsBox{width:980px;margin:0 auto;padding:10px;border:1px solid #CCC;background:#fff}
+#goodsList{width:1090px;overflow:hidden}
+#goodsList li{width:235px;height:300px;border:1px solid #CCC;margin:10px 10px 0 0;float:left;text-align:center;overflow:hidden}
+#goodsList li:hover{border-color:#f60}
+#goodsList span,i,del{font-size:18px}
+#goodsList span{color:red;margin:10px 20px 0 40px}
+#goodsList a{font-size:14px;color:#666;line-height:40px}
+#goodsList a:hover{color:#f60}
+#pageBtn{width:700px;height:40px;overflow: hidden;margin:10px 0 0 380px}
+#pageBtn li {width: 26px;line-height: 26px;border: 1px solid #9b9b9b;text-align: center;cursor: pointer;float: left;margin-right: 5px;}
+#pageBtn .bingo {border: 1px solid transparent;}
+
+
+#hotDoor{width:1000px;height:60px ;clear:both;background:#ccc;margin:0 auto;font-size:12px;color:#960;line-height:20px;margin-top:20px}
+#hotDoor a{color:#960;font-size:12px;margin:0 10px 0 10px}
+#hotDoor a:hover{color:#639}
+#tuijian{width:1000px;margin:0 auto;border-bottom:1px solid #CCC;margin-top:20px;text-align:center;line-height:30px;font-size:14px}
+#tuijianimgs{width:1100px;height:115px;padding-top:15px}
+#tuijianimgs ul{margin-left:100px}
+#tuijianimgs li{width:235px;height:115px;float:left;margin-left:10px}
+#tuijianimgs li img{width:100%;height:100%}
+
+
+
+
+
+
+
+
+#graybottom{width:100%;height:75px;background:#989ba4;margin-top:20px}
+#graybottom ul li{float:left;vertical-align:middle;line-height:75px;margin:0 20px}
+#graybottom ul li a{margin:0 5px;color:#fff}
+#graybottom ul li img{margin-right:10px;vertical-align:middle;}
+
+#bottom2{width:100%;height:200px;margin:0 auto}
+#bottom2L{width:750px;height:200px;background:#fff;float:left}
+#bottom2L ul{float:left;margin:0 10px 0 45px}
+#bottom2L ul li{line-height:20px}
+#bottom2L ul li a{font-size:12px;color:#666}
+#bottom2L ul li a:hover{color:#f60}
+#bottom2L span{float:left;margin:20px 40px 10px 30px;color:#333;font-size:16px}
+#bottom2R{width:440px;height:200px;background:#fff;float:left}
+#bottom2R1{width:130px;height:200px;float:left}
+#bottom2R1 p{font-size:16px;color:#333;margin:20px 0 10px 20px}
+#bottom2R1 span{font-size:12px;color:#999;margin:0 0 10px 20px}
+#bottom2R1 img{margin:10px 0 0 20px}
+#bottom2R2{width:310px;height:140px;background:#fff;float:left;position:relative}
+#bottom2R2 p{font-size:16px;color:#333;margin:20px 0 10px 20px}
+#bottom2R2 span{font-size:12px;color:#999;margin-left:20px}
+#bottom2R2 ul{float:right} 
+#bottom2R2 ul li{line-height:20px}
+#bottom2R2 i{font-size:12px;color:#666;font-style:normal;margin:0 10px 0 10px}
+#bottom2R2 buttom{font-size:12px;color:#666;border:1px solid #999;margin-right:50px}
+#erweima{position:absolute;top:70px;left:20px}
+#bottom2R2 buttom:hover{color:#fff;background:#f60}
+#bottom2R2 img{vertical-align:middle;}
+#bottom3{width:100%;height:60px;margin:0 auto;text-align:center}
+#bottom3 p{font-size:12px;color:#999}
+#outside{top:0;right:0;background:#989ba4;height:700px;width:35px;position:fixed;}
+#buycars{position:absolute;background:#989ba4;width:35px;height:96px;top:50%;z-index:5;padding:30px 0}
+#buycars img{width:100%;height:100%}
+#hidebuy{overflow:hidden;position:absolute;height:155px;width:35px;top:50%;right:0;background:#fff;display:none;border:1px solid #999;text-align:center}
+#hidebuy p{margin:10px 50px 0 0;font-size:14px}
+#hidebuy img{vertical-align:middle}
+#hidebuy a{color:#C60;margin-left:20px;}
+#hidebuy a:hover{color:#3CC}
+#goTop{width:35px;height:35px;position:fixed;top:80%;right:0;display:none}
+#goTop img{width:100%;height:100%}

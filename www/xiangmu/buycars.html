@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/buycars.css">
+<link rel="stylesheet" type="text/css" href="css/Reset.css">
+<script src="src/jquery-1.11.1.min.js"></script>
+<script src="src/buyCar.js"></script>
+<script src="src/jquery.cookie.js"></script>
+<script>
+        $(document).ready(function(){
+             buyCars();
+        })
+    </script>
+</head>
+
+<body>
+<div id="mainBox">
+	<div id="logoBox">
+    	<a href="index.html"><img src="imgs/logo11.jpg"></a>
+        <div id="logoRBox">
+        <p>欢迎您<a href="denglu.html">[会员管理]</a><a href="#">[安全退出]</a></p>
+        <img src="imgs/logo12.jpg">
+        <img src="imgs/logo13.jpg">
+        <img src="imgs/logo14.jpg">
+        </div>
+    </div>
+    <div id="logoBox2">
+    	<div id="LB2L">
+        	<p>我的购物车<span>您购物车的商品会被永久保存</span></p>
+        </div>
+        <div id="LB2R"><img src="imgs/dengpao.jpg"><span>商品价格请以提交时价格为准</span></div>
+    </div>
+    <div id="tableBox">
+    	 <div id="box">
+        <ul id="tittle">
+        		
+     
+            <li>名称</li>
+            <li>型号</li>
+            <li>数量</li>
+            <li>单价</li>
+        </ul>
+        <div id="goods">
+            <p>暂无商品</p>
+        </div>
+        <div id="jiesuan">
+            <button>结算</button>
+            <i>本次共消费(不合计运费)为：</i><em id="all">0</em>
+            <span>&yen;</span>
+        </div>
+    </div>
+    </div>
+	
+	<div id="bottom">
+    	<ul>
+        	<li><p>关于运费</p><br><span>拍鞋自营满129元免运费</span><br><a href="#">更多运费信息</a></li>
+            <li><p>退换货政策</p><br><span>拍鞋网提供15天无理由免费退货</span><br><a href="#">查看具体信息</a></li>
+            <li><p>客户服务</p><br><span>需要帮助?请拨打&nbsp;&nbsp;</span><i>921363</i><br>服务时间&nbsp;&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;：&nbsp;&nbsp;00&nbsp;&nbsp;--&nbsp;&nbsp;23&nbsp;&nbsp;：&nbsp;&nbsp;00</li>
+   
+        </ul>
+    </div>
+</div>
+</body>
+</html>

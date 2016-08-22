@@ -1,0 +1,565 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/Reset.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="src/jquery-1.11.1.min.js"></script>
+    <script src="src/index.js"></script>
+ 
+    <script src="src/ajax.js"></script>
+    <script src="src/picMove.js"></script>
+    <script>
+        $(document).ready(function () {
+            topHide();
+            bannerL();
+            bannerGo();
+            grayBox();
+            banRloop();
+            upDown();
+            quanjiantou();
+           inout();
+            timedown();
+            goods11();
+            goods12();
+            goods21();
+            goods22();
+             goods51();
+            goods52();
+            imgsloop();
+            circles();
+           buycars();
+
+            boxMove();
+
+            
+        })
+    </script>
+</head>
+
+<body>
+    <div id="mainbox">
+        <div id="topnav">
+            <ul id="ulL">
+                <li>
+                    <a href="#"><img src="imgs/phone.bmp">手机版</a>|</li>
+                <li><span>您好，欢迎来拍鞋网！</span></li>
+            </ul>
+            <a href="denglu.html"><img src="imgs/qingdenglu.bmp"></a>
+            <a href="zhuce.html"><span>免费注册</span></a>
+            <ul id="ulR">
+                <li>
+                    <a href="buycars.html"><img src="imgs/gouwuche.bmp">购物车<span>（0）</span></a>|</li>
+                <li><a href="denglu.html">我的拍鞋<img src="imgs/jiantouxia.bmp"></a>|</li>
+                
+                <li><a href="#">消息</a>|</li>
+                <li><a href="#">会员俱乐部</a>|</li>
+                <li><a href="#">网站导航</a></li>
+                
+            </ul>
+            <div class="more1">
+                <ul>                   
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的优惠劵</a></li>
+                </ul>
+                </div>
+                <div class="more2">
+                <ul>
+
+                        <li><a href="#">商家入驻</a></li>
+                        <li><a href="#">了解拍卖</a></li>
+                        <li><a href="#">拍鞋公益</a></li>
+                        <li><a href="#">网站地图</a></li>
+                        <li><a href="#">新手帮助</a></li>
+
+                </ul>
+                </div>
+            <div id="navhidebox"></div>
+        </div>
+
+        <div id="logobox">
+        	<a href="#"><img src="imgs/logo.jpg" class="logoimg"></a>
+            <div id="searchBox">
+				<img src="imgs/fangdajing.jpg">
+                <input type="text" id="searchGoods">
+                <div id="search"><a href="#">搜索</a></div>
+                <ul id="searchList">
+                	<li><a href="#" class="redList">最高减200</a></li>
+                    <li><a href="#">跑步鞋</a></li>
+                    <li><a href="#">男士凉鞋</a></li>
+                    <li><a href="#" class="redList">女士凉鞋</a></li>
+                    <li><a href="#">小白鞋</a></li>
+                    <li><a href="#">百搭T恤</a></li>
+                    <li><a href="#" class="redList">99元封顶</a></li>
+                </ul>        
+            </div>
+            <a href="#"><img id="wechat" src="imgs/erweima.jpg"></a>
+            <div id="logobottom"><a href="#"><img src="imgs/shangpinfenlei.jpg">全部商品分类</a></div>
+            <ul id="logoUL">
+            	<li><a href="index.html">首页</a></li>
+                <li><a href="#">爱团购</a></li>
+                <li><a href="#">闪购</a></li>
+                <li><a href="#">今日特价</a></li>
+            </ul>
+            <img id="youliao" src="imgs/youliao.jpg">
+            <img id="xinban" src="imgs/xinban.jpg">
+        </div>
+        
+        <div id="bannerBox">
+        	<div id="banLBox"></div>
+            <div id="banHideBox"></div>
+            <div id="bannerGo"></div>
+            <div id="banRBox">
+            	<div id="grayBox">
+                	
+                	<div><a href="#"><img src="imgs/huiyuanzhuanxiang1.jpg"></a></div>
+                   	<div><a href="#"><img src="imgs/lingquan1.jpg"></a></div>
+                   	<div><a href="#"><img src="imgs/quchoujiang1.jpg"></a></div>
+                   
+                </div>
+                <div id="listBox">
+					<p>守望快报</p>
+                    <a href="#"><span>更多&gt;&gt;</span></a>
+                    <ul>
+                    	<li><a href="#">【HOT】午时已到</a></li>
+                        <li><a href="#">【HOT】英雄不死</a></li>
+                        <li><a href="#">【HOT】天降神鹰</a></li>
+                    </ul>                
+                </div>
+                <div id="rightImgLoop"></div>
+            </div>
+            <div id="fourLtters"><span>品牌活动</span></div>
+            <div id="goodsBoxcenter1">
+            	<ul>
+            	<li><div><a href="#"><img src="imgs/zhuoshini.jpg"></a></div></li>
+                <li><div><a href="#"><img src="imgs/361zhuanchang.jpg"></a></div></li>
+                <li><div><a href="#"><img src="imgs/senmananxie.jpg"></a></div></li>
+                </ul>
+            </div>
+            <div id="banRupdoBox">
+            	<div id="topList">
+                	<ul>
+                    	<li>推荐店铺</li>
+                        <li>热销品牌</li>
+                    </ul>
+                </div>
+              
+                	<ul id="imgsbox">
+        				<li>
+            				<div></div>
+        				</li>
+       				 	<li>
+            				<div></div>
+        				</li>
+        				<li>
+            				<div></div>
+        				</li>
+        				<li>
+            				<div></div>
+        				</li>
+        				
+    				</ul>
+                    <ul id="imgsbox2">
+        				<li>
+            				<div></div>
+        				</li>
+       				 	<li>
+            				<div></div>
+        				</li>
+        				<li>
+            				<div></div>
+        				</li>
+        				<li>
+            				<div></div>
+        				</li>        				
+    				</ul>             
+            </div>
+            <div id="goodsBoxLeft">
+            <ul>
+            	<li><div><a href="#"><img src="imgs/moregoods.jpg"></a></div></li>
+                <li><div><a href="#"><img src="imgs/misikang.jpg"></a></div></li>
+                <li><div><a href="#"><img src="imgs/naike.jpg"></a></div></li>
+                <li><div><a href="#"><img src="imgs/yuzhaolin.jpg"></a></div></li>
+                </ul>
+            </div>
+        </div>
+        <div id="timegoods">
+        	<div id="toptext">
+            	<a href="#">爱团购</a>
+                
+                <span>换一批<img src="imgs/tuanjiantou.jpg"></span>
+            </div>
+            <div id="goodsTime">
+          
+            </div>
+        </div>
+        <div id="manygoods1">
+        	<div id="goodstop1">
+            	<div id="F1">F1</div>
+                <p>运动&nbsp;户外</p>
+                <ul id="otherUL11">
+                	<li>潮牌新品</li>
+                </ul>
+                <ul id="otherUL12">
+                    <li>人气跑鞋</li>
+                    <li>百搭板鞋</li>
+                </ul>
+                <a href="#">更多</a>
+            </div>
+            <div id="leftbox1">
+            	<img src="imgs/F1LT.jpg">
+                <div id="F1in">
+                	<p>热卖</p>
+                    <ul>
+                    	<li><a href="#">跑步鞋</a></li>
+                        <li><a href="#">N字鞋</a></li>
+                        <li><a href="#">篮球鞋</a></li>
+                        <li><a href="#">运动双肩包</a></li>
+                        <li><a href="#">AIR MAX</a></li>
+                        <li><a href="#">运动T恤</a></li>
+                        <li><a href="#">休闲鞋</a></li>
+                        <li><a href="#">登山鞋</a></li>
+                        <li><a href="#">户外鞋</a></li>
+                    </ul>
+                </div>
+            
+                <div id="F1out">
+                <p>特色</p>
+                <ul>
+                    	<li><a href="#">减震</a></li>
+                        <li><a href="#">防滑</a></li>
+                        <li><a href="#">耐磨</a></li>
+                        <li><a href="#">透气</a></li>
+                        <li><a href="#">缓冲</a></li>
+                        <li><a href="#">气垫</a></li>
+                        <li><a href="#">反绒皮</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="goodschange1">
+            	<ul id="leftUL1">
+                	<li><div><a href="#"><img src="imgs/goods1_1.jpg"></a></div></li>
+                    <li><div><a href="#"><img src="imgs/goods1_2.jpg"></a></div></li>
+                </ul>
+                <div id="goods13"><img src="imgs/goods1_3.jpg"></div>
+                <ul id="leftUL12">
+                	<li><div><a href="#"><img src="imgs/goods1_4.jpg"></a></div></li>
+                    <li><div><a href="#"><img src="imgs/goods1_5.jpg"></a></div></li>
+                </ul>
+                <ul id="leftUL13">
+                	<li><div><a href="#"><span>耐克板鞋<br><i>&yen;409.00</i></span><img src="imgs/goods1_6.jpg"></a></div></li>
+                    <li><div><a href="#"><span>阿迪达斯<br><i>&yen;689.00</i></span><img src="imgs/goods1_7.jpg"></a></div></li>
+                    <li><div><a href="#"><span>阿雷啦<br><i>&yen;309.00</i></span><img src="imgs/goods1_8.jpg"></a></div></li>
+                </ul>
+            </div>
+            <div id="goodschange2">
+            	
+            </div>
+            <a href="#"><img id="longimg1" src="imgs/longimg1.jpg"></a>
+        </div>
+        <div id="manygoods2">
+        	<div id="goodstop2">
+            	<div id="F2">F2</div>
+                <p>女鞋&nbsp;女装</p>
+                <ul id="otherUL21">
+                	<li>摩登女神</li>
+                </ul>
+                <ul id="otherUL22">
+                    <li>人气凉鞋</li>
+                    <li>青春帆布</li>
+                </ul>
+                <a href="#">更多</a>
+            </div>
+            <div id="leftbox2">
+            	<img src="imgs/F2LT.jpg">
+                <div id="F2in">
+                	<p>热卖</p>
+                    <ul>
+                    	<li><a href="#">凉鞋</a></li>
+                        <li><a href="#">单鞋鞋</a></li>
+                        <li><a href="#">休闲鞋</a></li>
+                        <li><a href="#">松糕鞋</a></li>
+                        <li><a href="#">连衣裙</a></li>
+                        <li><a href="#">T恤</a></li>
+                        <li><a href="#">短裤</a></li>
+                        <li><a href="#">牛仔</a></li>
+                        <li><a href="#">热裤</a></li>
+                    </ul>
+                </div>
+            
+                <div id="F2out">
+                <p>特色</p>
+                <ul>
+                    	<li><a href="#">高根</a></li>
+                        <li><a href="#">平底</a></li>
+                        <li><a href="#">套脚</a></li>
+                        <li><a href="#">内增高</a></li>
+                        <li><a href="#">魔术贴</a></li>
+                        <li><a href="#">拉链</a></li>
+                        <li><a href="#">布面</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="goodschange21">
+            	<ul id="leftUL21">
+                	<li><div><a href="#"><img src="imgs/goods4_1.jpg"></a></div></li>
+                    <li><div><a href="#"><img src="imgs/goods4_2.jpg"></a></div></li>
+                </ul>
+                <div id="goods23"><img src="imgs/goods4_3.jpg"><img src="imgs/goods4_4.jpg"></div>
+                <ul id="leftUL22">
+                	<li><div><a href="#"><img src="imgs/goods4_5.jpg"></a></div></li>
+                    <li><div><a href="#"><img src="imgs/goods4_6.jpg"></a></div></li>
+                </ul>
+                <ul id="leftUL23">
+                	<li><div><a href="#"><span>时尚连衣裙<br><i>&yen;409.00</i></span><img src="imgs/goods4_7.jpg"></a></div></li>
+                    <li><div><a href="#"><span>短袖T恤<br><i>&yen;689.00</i></span><img src="imgs/goods4_8.jpg"></a></div></li>
+                    <li><div><a href="#"><span>洞洞鞋<br><i>&yen;309.00</i></span><img src="imgs/goods4_9.jpg"></a></div></li>
+                </ul>
+            </div>
+            <div id="goodschange22"></div>
+            <a href="#"><img id="longimg2" src="imgs/longimg2.jpg"></a>
+        </div>
+        
+        <div id="manygoods5">
+        	<div id="goodstop5">
+            	<div id="F3">F3</div>
+                <p>箱包&nbsp;家纺</p>
+                <ul id="otherUL51">
+                	<li>引领时尚</li>
+                </ul>
+                <ul id="otherUL52">
+                    <li>美丽女包</li>
+                    <li>床上用品</li>
+                </ul>
+                <a href="#">更多</a>
+            </div>
+            <div id="leftbox5">
+            	<img src="imgs/F5LT.jpg">
+                <div id="F5in">
+                	<p>热卖</p>
+                    <ul>
+                    	<li><a href="#">旅行箱</a></li>
+                        <li><a href="#">单肩包</a></li>
+                        <li><a href="#">双肩包</a></li>
+                        <li><a href="#">商务包</a></li>
+                        <li><a href="#">钱包</a></li>
+                        <li><a href="#">四件套</a></li>
+                        <li><a href="#">蚊帐</a></li>
+                        <li><a href="#">亲子装</a></li>
+                        <li><a href="#">双肩包</a></li>
+                    </ul>
+                </div>
+            
+                <div id="F5out">
+                <p>特色</p>
+                <ul>
+                    	<li><a href="#">格子</a></li>
+                        <li><a href="#">复古</a></li>
+                        <li><a href="#">荷叶边</a></li>
+                        <li><a href="#">商务</a></li>
+                        <li><a href="#">学院</a></li>
+                        <li><a href="#">欧美</a></li>
+                        <li><a href="#">卡通</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="goodschange51">
+            	<ul id="leftUL51">
+                	<li><div><a href="#"><img src="imgs/goods6_1.jpg"></a></div></li>
+                    <li><div><a href="#"><img src="imgs/goods6_2.jpg"></a></div></li>
+                </ul>
+                <div id="goods53"><img src="imgs/goods6_3.jpg"></div>
+                <ul id="leftUL52">
+                	<li><div><a href="#"><img src="imgs/goods6_4.jpg"></a></div></li>
+                    <li><div><a href="#"><img src="imgs/goods6_5.jpg"></a></div></li>
+                </ul>
+                <ul id="leftUL53">
+                	<li><div><a href="#"><span>女士钱包<br><i>&yen;409.00</i></span><img src="imgs/goods6_6.jpg"></a></div></li>
+                    <li><div><a href="#"><span>旅行包<br><i>&yen;689.00</i></span><img src="imgs/goods6_7.jpg"></a></div></li>
+                    <li><div><a href="#"><span>双肩电脑包<br><i>&yen;309.00</i></span><img src="imgs/goods6_8.jpg"></a></div></li>
+                </ul>
+            </div>
+            <div id="goodschange52">
+            	
+            </div>
+            <a href="#"><img id="longimg5" src="imgs/longimg5.jpg"></a>
+            
+        </div>
+        <div id="season">
+        	<div id="season1">
+            	<span>品牌入驻</span>
+                <a href="#"><img src="imgs/pinpairuzhu.jpg"></a>
+            </div>
+            <div id="season2">
+            	<span>拍鞋影响力</span>
+                	
+                	<ul id="imgsloop">
+                    	<li><a href="#"><img src="imgs/imgsloop1.jpg"></a></li>
+                        <li><a href="#"><img src="imgs/imgsloop2.jpg"></a></li>
+                        <li><a href="#"><img src="imgs/imgsloop3.jpg"></a></li>
+                        
+                    </ul>
+              		
+                <ul id="imgsloopbg">
+                	<li><a href="#"><img src="imgs/imgsloopbg1.jpg"></a></li>
+                    <li><a href="#"><img src="imgs/imgsloopbg2.jpg"></a></li>
+                    <li><a href="#"><img src="imgs/imgsloopbg3.jpg"></a></li>
+                </ul>
+               
+            </div>
+             <div id="season3"><span>媒体报道</span><a href="#"><img src="imgs/season31.jpg"></a><ul><li><a href="#">问世间钱为何物，指教英雄肝胆俱裂</a></li><li><a href="#">今年没有年三十，你发现了吗</a></li><li><a href="#">有效解决鞋子磨脚的问题，必须收藏</a></li><li><a href="#">鞋子太多不够放 ，一根杆子就搞定</a></li></ul></div>
+                <div id="season4"><span>品牌资讯</span><a href="#"><img src="imgs/season32.jpg"></a><ul><li><a href="#">耐克自绑鞋带鞋，先从NBA入手</a></li><li><a href="#">特步法力，专供青少年市场</a></li><li><a href="#">富贵鸟的秋冬新品发布会</a></li><li><a href="#">顾客可以自行打造战鞋！</a></li></ul></div>
+        </div>
+        <div id="circle">
+        	<div id="circleBox">
+            	<div><span>运动馆</span><img src="imgs/circle1.jpg"></div>
+                <div><span>女鞋馆</span><img src="imgs/circle2.jpg"></div>
+                <div><span>男鞋馆</span><img src="imgs/circle3.jpg"></div>
+                <div><span>户外馆</span><img src="imgs/circle4.jpg"></div>
+                <div><span>儿童馆</span><img src="imgs/circle5.jpg"></div>
+                <div><span>服饰馆</span><img src="imgs/circle6.jpg"></div>
+            </div>
+            <div id="ulbox">
+            	<ul>
+                	<li><a href="#">舒适跑鞋</a></li>
+                    <li><a href="#">篮球鞋</a></li>
+                    <li><a href="#">帆布鞋</a></li>
+                	<li><a href="#">百搭板鞋</a></li>
+                    <li><a href="#">运动服饰</a></li>
+                    <li><a href="#">运动休闲鞋</a></li>
+                </ul>
+            	<ul>
+                	<li><a href="#">女鞋商信</a></li>
+                    <li><a href="#">优雅高根</a></li>
+                    <li><a href="#">甜美女单</a></li>
+               
+                	<li><a href="#">欧凡休闲</a></li>
+                    <li><a href="#">百搭帆布</a></li>
+                    <li><a href="#">性感凉鞋</a></li>
+                </ul>
+            
+            	<ul>
+                	<li><a href="#">休闲鞋</a></li>
+                    <li><a href="#">皮鞋</a></li>
+                    <li><a href="#">商务皮鞋</a></li>
+                
+                	<li><a href="#">影星增高</a></li>
+                    <li><a href="#">经典帆布</a></li>
+                    <li><a href="#">工装鞋</a></li>
+                </ul>
+            
+				<ul>
+                	<li><a href="#">休闲鞋</a></li>
+                    <li><a href="#">登山鞋</a></li>
+                    <li><a href="#">徒步旅行</a></li>
+                
+                	<li><a href="#">户外背包</a></li>
+                    <li><a href="#">溯溪鞋</a></li>
+                    <li><a href="#">户外休闲装</a></li>
+                </ul>            
+            
+            	<ul>
+                	<li><a href="#">儿童衬衫</a></li>
+                    <li><a href="#">公主鞋</a></li>
+                    <li><a href="#">运动</a></li>
+               
+                	<li><a href="#">同皮鞋</a></li>
+                    <li><a href="#">学生鞋</a></li>
+                    <li><a href="#">春季童装</a></li>
+                </ul>
+            
+            	<ul>
+                	<li><a href="#">百搭T恤</a></li>
+                    <li><a href="#">连衣裙</a></li>
+                    <li><a href="#">牛仔裤</a></li>
+               
+                	<li><a href="#">时尚相报</a></li>
+                    <li><a href="#">形象男装</a></li>
+                    <li><a href="#">潮流女装</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="graybottom">
+        	<ul>
+            	<li><img src="imgs/bottom1.jpg"><a href="#"><span>正品保证&nbsp;假一赔十</span></a></li>
+                <li><img src="imgs/bottom2.jpg"><a href="#"><span>货到付款&nbsp;全国范围</span></a></li>
+                <li><img src="imgs/bottom3.jpg"><a href="#"><span>十天保值&nbsp;差价返回</span></a></li>
+                <li><img src="imgs/bottom4.jpg"><a href="#"><span>满129包邮</span></a></li>
+                <li><img src="imgs/bottom5.jpg"><a href="#"><span>十五天无理由退换货</span></a></li>
+            </ul>
+        </div>
+        <div id="bottom2">
+        	<div id="bottom2L">
+            	<span>新手帮助</span>
+                <span>支付方式</span>
+                <span>售后服务</span>
+                <span>关于拍鞋网</span>
+                <span>客服中心</span>
+            	<ul>
+                	<li><a href="#">注册会员</a></li>
+                    <li><a href="#">如何购物</a></li>
+                    <li><a href="#">拍鞋币说明</a></li>
+                    <li><a href="#">优惠劵说明</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">支付宝快捷支付</a></li>
+                    <li><a href="#">网银快捷支付</a></li>
+                    <li><a href="#">货到付款</a></li>
+                    <li><a href="#">运费说明</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">退换货政策说明</a></li>
+                    <li><a href="#">退款详细说明</a></li>
+                    <li><a href="#">如何办理退换货</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">了解拍鞋网</a></li>
+                    <li><a href="#">商家入驻</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">拍鞋招聘</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">客服电话：4008 81 82 83</a></li>
+                    <li><a href="#">售后专线：0595-83092222</a></li>
+                    <li><a href="#">服务时间：周一到周日8:00-23:30</a></li>
+                </ul>
+            </div>
+            <div id="bottom2R">
+            	<div id="bottom2R1">
+                	<p>拍鞋客户端</p>
+                    <span>随时随地败家</span>
+                    <img src="imgs/erweima1.jpg">
+                </div>
+                <div id="bottom2R2">
+                	<p>拍鞋客户端</p>
+                    <span>随时随地败家</span>
+                    <img src="imgs/erweima1.jpg" id="erweima">
+                    <ul>
+                    	<li><a href="#"><img src="imgs/xinlang.jpg"><i>新浪微博</i><buttom>+ 加关注</buttom></a></li>
+                        <li><a href="#"><img src="imgs/xingxing.jpg"><i>腾讯微博</i><buttom>+ 加关注</buttom></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="bottom3">
+        	<p>Copyright © 2007-2016 Paixie.net All Rights Reserved 闽B2-20110084</p>
+            <img src="imgs/bottom6.jpg">
+        </div>
+    </div>
+    <div id="outside">
+    	<div id="buycars"><img src="imgs/gouwuge11.jpg"></div>
+        <div id="hidebuy"></div>
+        <div id="goTop"><img src="imgs/totop1.jpg"></div>
+    </div>
+    
+
+</body>
+
+</html>

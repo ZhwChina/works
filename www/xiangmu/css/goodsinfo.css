@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+a{text-decoration:none}
+li{list-style:none}
+/*img{border:0;display:block}*/
+body {background: #f8f8f8;font-size: 12px;color: #666;font-family: "微软雅黑";
+}
+
+
+#mainbox{margin:0 auto;width:1190px;}
+#topnav{background:#fafafa;width:100%;height:33px;margin:0 auto;border-bottom:1px solid #eeeeee;padding:0 10px;position:relative;}
+#topnav img{float:left;margin-top:3px}
+#ulL li{float:left;text-align:center;font-size:12px;color:#333;margin-right:5px;line-height:33px;margin-bottom:5px}
+#topnav a span:hover{color:#F60}
+#topnav span{line-height:32px;color:#333;}
+#topnav i{font-style:normal;}
+#topnav #ulL img{vertical-align:center;margin:5px 5px 0 5px;}
+#topnav a{color:#333;font-size:12px;margin:0 5px}
+#ulR{float:right;position:relative;margin-right:30px}
+#ulR li{float:left;text-align:center;font-size:12px;color:#333;line-height:33px;margin-bottom:5px;margin-left:10px}
+#ulR li a{margin-left:5px}
+
+#ulR li img{clear:both;margin:5px 0 5px 0}
+#navhidebox{width:378px;height:100px;position:absolute;display:none;background:#fff;top:33px;left:780px;border:1px solid #666;text-align:center;z-index:3}
+#topnav .hidespan{color:#F60;font-size:12px;font-weight:700;line-height:100px}
+#topnav .more1{border:1px solid #CCC;text-align:center;position:absolute;top:33px;right:238px;display:none;z-index:3;background:#fff}
+#topnav .more1 li{width:85px;margin:0;line-height:30px;}
+#topnav .more2{border:1px solid #CCC;text-align:center ;position:absolute;top:33px;right:40px;display:none;z-index:3;background:#fff}
+#topnav .more2 li{width:65px;margin:0;line-height:30px;}
+#topnav .more2 li a{color:#333}
+/**********************************logo****************/
+#logobox{margin:0 auto;width:100%;height:135px;background:#fffcff;padding:0 10px;position:relative;overflow:hidden;border-bottom:2px solid #f60}
+#logobox .logoimg{float:left;margin:8px}
+#searchBox{width:500px;height:26px;line-height:20px;font-size:14px;position:absolute;top:20px;left:400px;border:2px solid #F60}
+#searchBox img{float:left;}
+#searchGoods{float:left;width:396px;height:20px}
+#search{float:right;width:63px;background:#F60;height:20px;text-align:center;padding:3px}
+#search a{color:#fff;font-size:15px;letter-spacing:5px;font-weight:800}
+#searchList{position:absolute;top:30px;}
+#searchList li{float:left;margin:0 10px 0 10px}
+#searchList li .redList{color:#F00;font-size:14px}
+#searchList a{color:#999;font-size:12px}
+#wechat{float:right;height:105px;margin-right:70px;margin-top:29px}
+#logobottom{width:199px;height:19px;position:absolute;bottom:0;left:0;background:#ff4300;padding:8px 10px;text-align:center}
+#logobottom img{float:left;margin-left:15px}
+#logobottom a{line-height:19px;float:left;font-weight:600;color:#fff}
+#logoUL{position:absolute;bottom:0;left:220px}
+#logoUL li{float:left;width:90px;height:25px;text-align:center;padding-top:10px}
+#logoUL li a{color:#333;font-size:16px;margin:0;}
+#logoUL li:hover{background:#FFACAC}
+#youliao{position:absolute;top:80px;left:420px}
+#xinban{position:absolute;top:80px;left:515px}
+
+#goodszoom{width:920px;height:525px;background:#fff;position:relative;display:inline-block;margin-left:50px;margin-top:10px;}
+#goodszoom i{color:#999;font-size:12px;font-style:normal}
+#goodszoom a{color:#999;font-size:12px}
+#goodszoom p{line-height:30px}
+#imgBox{margin-left:10px;display:inline-block;float:left}
+#btns{width: 300px;overflow: hidden;position:absolute;top:420px;left:30px}
+#btns li{width: 49px;height: 49px;float: left;margin-left:10px;}
+#btns img{width: 100%;height: 100%;}
+#zoomRBox{width:480px;height:480px;float:right;background:#fff}
+#zoomRBox h3{margin:20px;font-size:14px}
+#zoomRBox p,span{font-size:18px;color:red;margin-left:20px;font-weight:600;display:inline-block}
+#progress i{color:#C00}
+#goodsIfo{text-align:center；width:385px;height:260px;margin:20px 0 0 20px}
+#goodsIfo label{border: 1px solid #ccc;padding: 5px;cursor: pointer;margin:5px}
+#goodsIfo div input{display:none}
+#goodsIfo p{color:#666;font-size:12px;font-weight:normal;margin-top:10px;margin-left:0}
+#left{margin:20px 20px 20px 0}
+#left img{width:30px;height:30px;vertical-align:middle}
+#number{width:50px;height:25px;margin-top:20px}
+#add-goods{width: 120px;line-height: 30px;background: red;text-align: center;cursor: pointer;margin:30px;color: #fff;}
+#buyNow{width: 120px;line-height: 30px;color: #fff;background: #f60;text-align: center;cursor: pointer;margin:40px 40px 40px 30px}
+
+
+#shopIfo{width:200px;float:right;background:#fff;height:1200px;}
+#shopName{text-align:center;height:47px;line-height:47px;border-bottom:1px solid #CCC}
+#shopName img{vertical-align:middle}
+#shopName a{color:#666;margin-left:10px;font-size:14px;}
+#shopName a:hover{color:#f60}
+#shoucang{width:200px;height:110px;padding:10px;line-height:30px;border-bottom:1px solid #CCC}
+#shoucang img{vertical-align:middle}
+#shoucang span{width:60px;height:30px;background:#CCC;line-height:30px;margin-left:20px;margin-top:10px;text-align:center;color:#fff}
+#shoucang a{color:#333}
+
+#youhui{width:200px;height:80px;text-align:center;border-bottom:1px solid #CCC;padding-top:20px}
+#youhui a{color:#C60}
+#youhui a:hover{color:#f60}
+#goodsList1{text-align:center;width:192px;font-size:14px;padding:8px;0 0 10px}
+#goodsList1 img{margin-top:15px}
+
+#navCenBox{width:920px;height:34px;border-top:1px solid #CCC;border-bottom:1px solid #f60;margin-top:20px;margin-left:50px;border-right:1px solid #CCC;position:relative}
+#navCenBox li{border-left:1px solid #CCC;float:left;line-height:33px;display:block;text-align:center;width:150px;cursor:pointer}
+#navCenBox img{float:right}
+#erweimaBox{width:155px;height:155px;position:absolute;top:405px;left:775px;z-index:2;display:none}
+#centerBox{width:920px;height:2000px;margin-left:50px;position:relative;background:#fff}
+#fixBox{position:absolute;width:97px;height:280px;background:#CCC;top:185px;border:1px solid #F99;text-align:center;z-index:3}
+#fixBox ul{margin-top:50px;}
+#fixBox ul li{font-size:16px;line-height:40px;cursor:pointer;color:#FFF;cursor:pointer}
+#fixBox ul li:hover{background:#F9C;color:#fff;}
+#goodsifor{width:920px;height:175px;border-left:1px solid #CCC;border-right:1px solid #CCC;border-bottom:1px solid #CCC}
+#goodsifor ul{float:left;margin:30px 20px 0 80px}
+#goodsifor ul li{line-height:20px}
+#goodsifor a{color:#990}
+#largeBox{position:relative}
+#large img{margin-left:100px}
+#large2{display:none;width:800px;background:#fff;height:1814px;margin-left:100px;position:absolute;top:10px}
+#large2 .box2{width:760px;height:70px;margin-top:10px;border-bottom:1px solid #CCC;padding:20px}
+#large2 .box2 p{color:#333;font-size:14px}
+#large2 .box2 div{display:inline-block}
+#large2 .box2L{float:left;width:52px;height:60px;margin-right:20px}
+#large2 .box2R{float:right;color:#333;line-height:30px}
+#large3{display:none;width:800px;background:#f60;height:1200px;margin-left:100px;position:absolute;top:10px}
+#large4{display:none;width:800px;background:#996;height:1200px;margin-left:100px;position:absolute;top:10px}
+
+
+
+
+#graybottom{width:100%;height:75px;background:#989ba4;margin-top:20px}
+#graybottom ul li{float:left;vertical-align:middle;line-height:75px;margin:0 20px}
+#graybottom ul li a{margin:0 5px;color:#fff}
+#graybottom ul li img{margin-right:10px;vertical-align:middle;}
+
+#bottom2{width:100%;height:200px;margin:0 auto}
+#bottom2L{width:750px;height:200px;background:#fff;float:left}
+#bottom2L ul{float:left;margin:0 10px 0 45px}
+#bottom2L ul li{line-height:20px}
+#bottom2L ul li a{font-size:12px;color:#666}
+#bottom2L ul li a:hover{color:#f60}
+#bottom2L span{float:left;margin:20px 40px 10px 30px;color:#333;font-size:16px}
+#bottom2R{width:440px;height:200px;background:#fff;float:left}
+#bottom2R1{width:130px;height:200px;float:left}
+#bottom2R1 p{font-size:16px;color:#333;margin:20px 0 10px 20px}
+#bottom2R1 span{font-size:12px;color:#999;margin:0 0 10px 20px}
+#bottom2R1 img{margin:0 0 0 20px}
+#bottom2R2{width:310px;height:140px;background:#fff;float:left;position:relative}
+#bottom2R2 p{font-size:16px;color:#333;margin:20px 0 10px 20px}
+#bottom2R2 span{font-size:12px;color:#999;margin-left:20px}
+#bottom2R2 ul{float:right} 
+#bottom2R2 ul li{line-height:20px}
+#bottom2R2 i{font-size:12px;color:#666;font-style:normal;margin:0 10px 0 10px}
+#bottom2R2 buttom{font-size:12px;color:#666;border:1px solid #999;margin-right:50px}
+#erweima{position:absolute;top:70px;left:20px}
+#bottom2R2 buttom:hover{color:#fff;background:#f60}
+#bottom2R2 img{vertical-align:middle;}
+#bottom3{width:100%;height:60px;margin:0 auto;text-align:center}
+#bottom3 p{font-size:12px;color:#999}
+#outside{top:0;right:0;background:#989ba4;height:700px;width:35px;position:fixed;}
+#buycars{position:absolute;background:#989ba4;width:35px;height:96px;top:50%;z-index:5;padding:30px 0}
+#buycars img{width:100%;height:100%}
+#hidebuy{overflow:hidden;position:absolute;height:155px;width:35px;top:50%;right:0;background:#fff;display:none;border:1px solid #999;text-align:center}
+#hidebuy p{margin:10px 50px 0 0;font-size:14px}
+#hidebuy img{vertical-align:middle}
+#hidebuy a{color:#C60;margin-left:20px;}
+#hidebuy a:hover{color:#3CC}
+#goTop{width:35px;height:35px;position:fixed;top:80%;right:0;display:none;cursor:pointer}
+#goTop img{width:100%;height:100%}
+
+
+
+#progress{
+    width: 50%; 
+    height: 20px;
+    border:1px solid #ccc;
+    border-radius: 15px;
+   float:right;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0px #ddd inset;
+}
+
+#progress i {
+    display: inline-block;
+	
+    width: 80%;
+    height: 100%;
+    background: #2989d8; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #2989d8 33%, #7db9e8 34%, #7db9e8 59%, #2989d8 60%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(33%,#2989d8), color-stop(34%,#7db9e8), color-stop(59%,#7db9e8), color-stop(60%,#2989d8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #2989d8 33%,#7db9e8 34%,#7db9e8 59%,#2989d8 60%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #2989d8 33%,#7db9e8 34%,#7db9e8 59%,#2989d8 60%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #2989d8 33%,#7db9e8 34%,#7db9e8 59%,#2989d8 60%); /* IE10+ */
+    background: linear-gradient(45deg, #2989d8 33%,#7db9e8 34%,#7db9e8 59%,#2989d8 60%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-size: 60px 30px;
+    text-align: center;
+    color:#fff;
+}
+
+
+
+.carDCButton {width: 150px;height: 30px;line-height:30px;text-align:center;position: relative;cursor: pointer;font-size: 14px;}
+        .carDCButton a {display: block;cursor: pointer;}
+        .carDCButton a:hover .R-left { width: 198px; left: 0; }
+        .carDCButton a:hover .R-right { width: 198px; right: 0; }
+        .carDCButton a:hover .R-top { height: 46px; top: 0; }
+        .carDCButton a:hover .R-bottom { height: 46px; bottom: 0; }
+        .carDCButton a span { position: absolute; background: red; z-index: 1; }
+
+        .carDCButton a .R-left { top: 0; left: -110%; transition: left 0.3s; width: 0; height: 1px; }
+
+        .carDCButton a .R-right { bottom: 0; right: -110%; transition: right 0.3s; width: 0; height: 1px;  }
+
+        .carDCButton a .R-top { top:-110%; left: -1px; transition: top 0.3s; height: 0; width: 1px; }
+
+        .carDCButton a .R-bottom { bottom: -110%; right: -1px; transition: bottom 0.3s; height: 0; width: 1px; }
+		.carDCButton2 {width: 150px;height: 30px;line-height:30px;text-align:center;position: relative;cursor: pointer;font-size: 14px;}
+        .carDCButton2 a {display: block;cursor: pointer;}
+        .carDCButton2 a:hover .R-left { width: 198px; left: 0; }
+        .carDCButton2 a:hover .R-right { width: 198px; right: 0; }
+        .carDCButton2 a:hover .R-top { height: 46px; top: 0; }
+        .carDCButton2 a:hover .R-bottom { height: 46px; bottom: 0; }
+        .carDCButton2 a span { position: absolute; background: #f60; z-index: 1; }
+
+        .carDCButton2 a .R-left { top: 0; left: -110%; transition: left 0.3s; width: 0; height: 1px; }
+
+        .carDCButton2 a .R-right { bottom: 0; right: -110%; transition: right 0.3s; width: 0; height: 1px;  }
+
+        .carDCButton2 a .R-top { top:-110%; left: -1px; transition: top 0.3s; height: 0; width: 1px; }
+
+        .carDCButton2 a .R-bottom { bottom: -110%; right: -1px; transition: bottom 0.3s; height: 0; width: 1px; }

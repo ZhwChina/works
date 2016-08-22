@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+#mainBox{width:1024px;margin:0 auto;}
+#logoBox{width:100%;height:90px;background:#fff;border-bottom:1px solid #ccc}
+#logoRBox{float:right;height:80px;padding-top:10px 0}
+#logoBox2{width:100%;height:30px;padding-top:30px;background:#FFF;}
+#LB2L{width:350px;float:left;margin-left:30px}
+#LB2L p{font-size:20px;color:#000;}
+#LB2L p i{font-size:12px;margin-left:10px;color:#666}
+#LB2L p span{font-size:14px;color:#333;margin-left:10px}
+#LB2R{float:right;width:200px;}
+#LB2R img{vertical-align:middle}
+
+#tableBox{width:980px;margin:0 auto;background:#CCC}
+#goodslist th{width:100px;height:35px;line-height:35px}
+#bottom{width:980px;height:100px;margin:0 auto;border-top:1px solid #CCC;margin-top:60px}
+#bottom li{float:left;margin-left:120px;text-align:center}
+#bottom li p{font-size:18px;color:#333}
+#bottom li i{color:#f60;}
+#box {
+            width: 980px;
+            border: 1px solid grey;
+            margin: 0 auto;
+			background:#fff
+        }
+        
+        #tittle {
+            overflow: hidden;
+            width: 980px;
+            margin: 0 auto;
+			background:#EEE;
+			color:#F60
+        }
+        
+        #tittle li {
+            float: left;
+            width: 120px;
+            margin-left:85px;
+			line-height:30px;
+			
+        }
+        
+        #goods p {
+            line-height: 80px;
+            font-size: 40px;
+            text-align: center;
+            border-top: 1px solid grey;
+            border-bottom: 1px solid grey;
+        }
+        
+        #jiesuan {
+            overflow: hidden;
+            margin: 10px 0;
+            padding-top: 10px;
+            border-top: 1px solid grey;
+        }
+        
+        #jiesuan span,
+        #jiesuan em,
+        #jiesuan button {
+            float: right;
+        }
+        
+        #jiesuan span {
+            color: red;
+            font-size: 20px;
+            padding: 5px 0;
+        }
+        #jiesuan i{
+			font-size:16px;
+			margin:0 0 0 550px;
+			line-height:37px
+			
+		}
+        #jiesuan em {
+            color: red;
+            font-size: 20px;
+            padding: 5px 0;
+            margin: 0 20px 0 0;
+        }
+        
+        #jiesuan button {
+            border: none;
+            background: #f34e0f;
+            color: #fff;
+			font-weight:600;
+            font-size: 20px;
+            padding: 5px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 60px;
+        }
+        
+        button:focus {
+            outline: none;
+        }
+        
+        #goods dl {
+            overflow: hidden;
+         
+            border-top: 1px solid grey;
+            padding: 10px 0;
+        }
+        
+        #goods dt,
+        #goods dd {
+            float: left;
+        }
+        
+        #goods dt {
+            overflow: hidden;
+            width: 250px;
+            height: 50px;
+        }
+        
+        #goods dt input {
+            width: 20px;
+            float: left;
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+        
+        #goods a {
+            display: block;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        
+        #goods a span {
+            float: left;
+            max-width: 100px;
+            margin-left: 10px;
+        }
+        
+        #goods img {
+            width: 40px;
+            height: 40px;
+            float: left;
+            border: 1px solid #ccc;
+			margin-right:20px
+        }
+        
+        .goods_size {
+            width: 100px;
+            line-height: 50px;
+            text-align: center;
+			margin-left:5px
+        }
+        
+        .goods_number {
+            width: 247px;
+            text-align: center;
+            line-height: 50px;
+			margin-left:30px
+        }
+        
+        .goods_price {
+            width: 110px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            color: red;
+			margin-left:30px
+        }
+        .delete{
+            line-height: 50px;
+            cursor: pointer;
+            background: #ccc;
+			width:50px;
+			text-align:center;
+            color:#fff;
+			margin-left:90px
+        }
+		.checkedAll{}

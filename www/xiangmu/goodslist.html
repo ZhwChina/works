@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/Reset.css">
+<link rel="stylesheet" type="text/css" href="css/goodslist.css">
+<script src="src/jquery-1.11.1.min.js"></script>
+<!--
+<script src="src/picMove.js"></script>
+<script src="src/startMove.js"></script>
+-->
+<script src="src/goodslist.js"></script>
+<script>
+    $(document).ready(function(){
+      
+            topHide();
+            hideMore();
+        goodslists();
+        buycars();
+//            toTop();
+
+   
+    })
+</script>
+</head>
+
+<body>
+<div id="mainbox">
+        <div id="topnav">
+            <ul id="ulL">
+                <li>
+                    <a href="#"><img src="imgs/phone.bmp">手机版</a>|</li>
+                <li><span>您好，欢迎来拍鞋网！</span></li>
+            </ul>
+            <a href="denglu.html"><img src="imgs/qingdenglu.bmp"></a>
+            <a href="zhuce.html"><span>免费注册</span></a>
+            <ul id="ulR">
+                <li>
+                    <a href="#"><img src="imgs/gouwuche.bmp">购物车<span>（0）</span></a>|</li>
+                <li><a href="denglu.html">我的拍鞋<img src="imgs/jiantouxia.bmp"></a>|</li>
+                
+                <li><a href="#">消息</a>|</li>
+                <li><a href="#">会员俱乐部</a>|</li>
+                <li><a href="#">网站导航</a></li>
+                
+            </ul>
+            <div class="more1">
+                <ul>                   
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的优惠劵</a></li>
+                </ul>
+                </div>
+                <div class="more2">
+                <ul>
+
+                        <li><a href="#">商家入驻</a></li>
+                        <li><a href="#">了解拍卖</a></li>
+                        <li><a href="#">拍鞋公益</a></li>
+                        <li><a href="#">网站地图</a></li>
+                        <li><a href="#">新手帮助</a></li>
+
+                </ul>
+                </div>
+            <div id="navhidebox"></div>
+        </div>
+
+        <div id="logobox">
+        	<a href="#"><img src="imgs/logo.jpg" class="logoimg"></a>
+            <div id="searchBox">
+				<img src="imgs/fangdajing.jpg">
+                <input type="text" id="searchGoods">
+                <div id="search"><a href="#">搜索</a></div>
+                <ul id="searchList">
+                	<li><a href="#" class="redList">最高减200</a></li>
+                    <li><a href="#">跑步鞋</a></li>
+                    <li><a href="#">男士凉鞋</a></li>
+                    <li><a href="#" class="redList">女士凉鞋</a></li>
+                    <li><a href="#">小白鞋</a></li>
+                    <li><a href="#">百搭T恤</a></li>
+                    <li><a href="#" class="redList">99元封顶</a></li>
+                </ul>        
+            </div>
+            <a href="#"><img id="wechat" src="imgs/erweima.jpg"></a>
+            <div id="logobottom"><a href="#"><img src="imgs/shangpinfenlei.jpg">全部商品分类</a></div>
+            <ul id="logoUL">
+            	<li><a href="index.html">首页</a></li>
+                <li><a href="#">爱团购</a></li>
+                <li><a href="#">闪购</a></li>
+                <li><a href="#">今日特价</a></li>
+            </ul>
+            <img id="youliao" src="imgs/youliao.jpg">
+            <img id="xinban" src="imgs/xinban.jpg">
+        </div>
+        <div id="backindex"><span><a href="index.html">首页</a>&nbsp;&gt;&nbsp;<a href="#">所有分类</a>&nbsp;&gt;&nbsp;</span><i><a href="#">款&nbsp;&nbsp;&nbsp;式&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;女&nbsp;&nbsp;鞋</a></i></div>
+        <div id="nameList">
+        	<div>品牌：<a href="#">卓诗尼(60)</a><a href="#">奈仙儿(1)</a><a href="#">依思Q(19)</a><a href="#">凤族(132)</a><a href="#">东帝名坊(723)</a><a href="#">2013(3)</a><a href="#">贝鸵(1)</a><a href="#">宝飘(14)</a><a href="#">富贵鸟(549)</a><a href="#">奥康(31)</a><a href="#">星期六(27)</a><a href="#">达芙妮(169)</a><a href="#">吉祥鸟(35)</a><a href="#">cele(22)</a></div>
+            <div id="list2">款式：<a href="#">女鞋/凉鞋(2051)</a><a href="#">女鞋/靴子(1626)</a><a href="#">单鞋(3706)</a><a href="#">女鞋/拖鞋(886)</a><a href="#">短靴(1)</a><a href="#">女鞋/休闲鞋(1242)</a><a href="#">女鞋/帆布鞋</a></div>
+        </div>
+        <div id="sort">
+        
+        	<div id="sortBox">
+            	<ul>
+					<li><a href="#">默认推荐</a></li>
+                    <li><a href="#">人气</a></li>
+                    <li><a href="#">新品</a></li>
+                    <li><a href="#">销量<img src="imgs/2xiajiantou.jpg"></a></li>
+                    <li><a href="#">价格<img src="imgs/2xiajiantou.jpg"></a></li>       
+                </ul>
+                <input type="text" placeholder="&yen;">
+                &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="&yen;">
+            </div>
+            <div id="checkBox">
+           		<input type="checkbox">货到付款
+                <input type="checkbox">限时促销
+                <input type="checkbox">会员特价
+                <input type="checkbox">团购            
+            </div>
+            <div id="more1">
+            	<ul>
+                	<li>从大到小</li>
+                    <li>从小到大</li>
+                </ul>
+            </div>
+            <div id="more2">
+            	<ul>
+                	<li>由高到低</li>
+                    <li>由低到高</li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="goodsBox">
+        	<ul id="goodsList"></ul>
+    		<ul id="pageBtn"></ul>
+        </div>
+        <div id="hotDoor">
+        热门搜索：<a href="#">阿迪达斯</a>|<a href="#"> 耐克</a>|<a href="#">匹克</a>|<a href="#">361度 </a>|<a href="#">李宁</a>|<a href="#">特步</a>|<a href="#">乔丹</a>|<a href="#">安踏</a>|<a href="#">富贵鸟</a>|<a href="#">花花公子</a>|<a href="#">鸿星尔克</a>|<a href="#">新百伦</a>|<a href="#">贵人鸟</a>|<a href="#">VANS</a>|<a href="#">彪马</a>|<a href="#">锐步</a>|<a href="#">三叶草</a>|<a href="#">茵宝</a>|<a href="#">沃特</a>|<a href="#">迪亚多纳</a>|<a href="#">TOREAD</a>|<a href="#"> 喜得龙</a>|<a href="#">回力</a>|<a href="#">  双星 </a>|<a href="#">赛琪</a>|<a href="#"> 瑞蛙</a>|<a href="#">native</a>|<a href="#"> 八哥</a>|<a href="#">宝飘</a>|<a href="#"> 乐途</a>|<a href="#">森马</a>|<a href="#"> 艾弗森</a>|<a href="#">骆驼队长</a>|<a href="#"> 领舞者</a>|<a href="#">探路先锋</a>|<a href="#"> 西瑞 </a>
+        </div>
+        
+        <div id="tuijian">
+        	<p>活动推荐</p>
+        </div>
+        <div id="tuijianimgs">
+        	<ul>
+        <li><a href="#"><img src="imgs/tuijian1.jpg"></a></li>
+        <li><a href="#"><img src="imgs/tuijian2.jpg"></a></li>
+        <li><a href="#"><img src="imgs/tuijian3.jpg"></a></li>
+        <li><a href="#"><img src="imgs/tuijian4.jpg"></a></li>
+        </ul>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+     
+        <div id="graybottom">
+        	<ul>
+            	<li><img src="imgs/bottom1.jpg"><a href="#"><span>正品保证&nbsp;假一赔十</span></a></li>
+                <li><img src="imgs/bottom2.jpg"><a href="#"><span>货到付款&nbsp;全国范围</span></a></li>
+                <li><img src="imgs/bottom3.jpg"><a href="#"><span>十天保值&nbsp;差价返回</span></a></li>
+                <li><img src="imgs/bottom4.jpg"><a href="#"><span>满129包邮</span></a></li>
+                <li><img src="imgs/bottom5.jpg"><a href="#"><span>十五天无理由退换货</span></a></li>
+            </ul>
+        </div>
+        <div id="bottom2">
+        	<div id="bottom2L">
+            	<span>新手帮助</span>
+                <span>支付方式</span>
+                <span>售后服务</span>
+                <span>关于拍鞋网</span>
+                <span>客服中心</span>
+            	<ul>
+                	<li><a href="#">注册会员</a></li>
+                    <li><a href="#">如何购物</a></li>
+                    <li><a href="#">拍鞋币说明</a></li>
+                    <li><a href="#">优惠劵说明</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">支付宝快捷支付</a></li>
+                    <li><a href="#">网银快捷支付</a></li>
+                    <li><a href="#">货到付款</a></li>
+                    <li><a href="#">运费说明</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">退换货政策说明</a></li>
+                    <li><a href="#">退款详细说明</a></li>
+                    <li><a href="#">如何办理退换货</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">了解拍鞋网</a></li>
+                    <li><a href="#">商家入驻</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">拍鞋招聘</a></li>
+                </ul>
+                
+                <ul>
+                	<li><a href="#">客服电话：4008 81 82 83</a></li>
+                    <li><a href="#">售后专线：0595-83092222</a></li>
+                    <li><a href="#">服务时间：周一到周日8:00-23:30</a></li>
+                </ul>
+            </div>
+            <div id="bottom2R">
+            	<div id="bottom2R1">
+                	<p>拍鞋客户端</p>
+                    <span>随时随地败家</span>
+                    <img src="imgs/erweima1.jpg">
+                </div>
+                <div id="bottom2R2">
+                	<p>拍鞋客户端</p>
+                    <span>随时随地败家</span>
+                    <img src="imgs/erweima1.jpg" id="erweima">
+                    <ul>
+                    	<li><a href="#"><img src="imgs/xinlang.jpg"><i>新浪微博</i><buttom>+ 加关注</buttom></a></li>
+                        <li><a href="#"><img src="imgs/xingxing.jpg"><i>腾讯微博</i><buttom>+ 加关注</buttom></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="bottom3">
+        	<p>Copyright © 2007-2016 Paixie.net All Rights Reserved 闽B2-20110084</p>
+            <img src="imgs/bottom6.jpg">
+        </div>
+    </div>
+    <div id="outside">
+    	<div id="buycars"><img src="imgs/gouwuge11.jpg"></div>
+        <div id="hidebuy"></div>
+        <div id="goTop"><img src="imgs/totop1.jpg"></div>
+        </div>
+  
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+        
+            "imgs":[{"src":"imgs/goods6_9.jpg"},{"src":"imgs/goods6_10.jpg"},{"src":"imgs/goods6_11.jpg"},{"src":"imgs/goods6_12.jpg"},{"src":"imgs/goods6_13.jpg"},{"src":"imgs/goods6_14.jpg"},{"src":"imgs/goods6_15.jpg"},{"src":"imgs/goods6_16.jpg"},{"src":"imgs/goods6_17.jpg"},{"src":"imgs/goods6_18.jpg"}],
+            "names":[{"types":"美丽挎包"},{"types":"NIKE 美丽挎包时尚新品"},{"types":"时尚美丽挎包"},{"types":"时尚美丽挎包"},{"types":"NIKE 美丽挎包"},{"types":"美丽挎包时尚新品"},{"types":"美丽挎包 时尚新品"},{"types":"NIKE 时尚新品 MAX"},{"types":"时尚新品新款"},{"types":"NIKE 美丽挎包"},{"types":"美丽挎包 女子 "},{"types":"美丽挎包AIR MAX"}],
+            "prices":[{"pri":"589"},{"pri":"489"},{"pri":"389"},{"pri":"289"},{"pri":"189"},{"pri":"989"},{"pri":"889"},{"pri":"789"},{"pri":"689"},{"pri":"589"}]
+        
+    },
+    {
+       
+            "imgs":[{"src":"imgs/goods6_19.jpg"},{"src":"imgs/goods6_20.jpg"},{"src":"imgs/goods6_21.jpg"},{"src":"imgs/goods6_22.jpg"},{"src":"imgs/goods6_23.jpg"},{"src":"imgs/goods6_24.jpg"},{"src":"imgs/goods6_25.jpg"},{"src":"imgs/goods6_26.jpg"},{"src":"imgs/goods6_27.jpg"},{"src":"imgs/goods6_28.jpg"}],
+            "names":[{"types":"床上用品"},{"types":"NIKE 耐克 男子"},{"types":"水钻网鞋  床上用品"},{"types":"床上用品2016新款"},{"types":"水钻网鞋 新款"},{"types":"NIKE 床上用品"},{"types":"NIKE床上用品 "},{"types":"水钻网床上用品"},{"types":"床上用品 "},{"types":"NIKE床上用品 "},{"types":"床上用品女子 AIR MAX"},{"types":"NIKE床上用品MAX"}],
+            "prices":[{"pri":"589"},{"pri":"489"},{"pri":"389"},{"pri":"289"},{"pri":"189"},{"pri":"989"},{"pri":"889"},{"pri":"789"},{"pri":"689"},{"pri":"589"}]
+        
+    }
+    
+]

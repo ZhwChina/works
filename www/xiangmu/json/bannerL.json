@@ -1,0 +1,148 @@
+[
+    {
+        "bannerL1": {
+            "src": "imgs/bannerL1.jpg",
+            "title": "运动馆",
+            "urls": [
+                {
+                    "name": "板鞋"
+                    },
+                {
+                    "name": "跑步鞋"
+                    },
+                {
+                    "name": "休闲鞋"
+                    },
+                {
+                    "name": "篮球鞋"
+                    }
+                ]
+        }
+    },
+    {
+        "bannerL2": {
+            "src": "imgs/bannerL2.jpg",
+            "title": "女鞋馆",
+            "urls": [
+                {
+                    "name": "夏季新品"
+                    },
+                {
+                    "name": "凉鞋"
+                    },
+                {
+                    "name": "单鞋"
+                    },
+                {
+                    "name": "休闲鞋"
+                    }
+                ]
+        }
+
+    },
+    {
+        "bannerL3": {
+            "src": "imgs/bannerL3.jpg",
+            "title": "男鞋馆",
+            "urls": [
+                {
+                    "name": "凉鞋"
+                    },
+                {
+                    "name": "休闲鞋"
+                    },
+                {
+                    "name": "帆布鞋"
+                    },
+                {
+                    "name": "豆豆鞋"
+                    }
+                ]
+        }
+
+    },
+    {
+        "bannerL4": {
+            "src": "imgs/bannerL4.jpg",
+            "title": "服饰馆",
+            "urls": [
+                {
+                    "name": "女装"
+                    },
+                {
+                    "name": "男装"
+                    },
+                {
+                    "name": "人气美裙"
+                    },
+                {
+                    "name": "牛仔短裤"
+                    }
+                ]
+        }
+
+    },
+    {
+        "bannerL5": {
+            "src": "imgs/bannerL5.jpg",
+            "title": "户外馆",
+            "urls": [
+                {
+                    "name": "登山鞋"
+                    },
+                {
+                    "name": "溯溪鞋"
+                    },
+                {
+                    "name": "休闲鞋"
+                    },
+                {
+                    "name": "户外服"
+                    }
+                ]
+        }
+
+    },
+    {
+        "bannerL6": {
+            "src": "imgs/bannerL6.jpg",
+            "title": "儿童馆",
+            "urls": [
+                {
+                    "name": "新品凉鞋"
+                    },
+                {
+                    "name": "童鞋"
+                    },
+                {
+                    "name": "运动鞋"
+                    },
+                {
+                    "name": "帆布鞋"
+                    }
+                ]
+        }
+
+    },
+    {
+        "bannerL7": {
+            "src": "imgs/bannerL7.jpg",
+            "title": "箱包馆",
+            "urls": [
+                {
+                    "name": "男包"
+                    },
+                {
+                    "name": "女包"
+                    },
+                {
+                    "name": "旅行箱包"
+                    },
+                {
+                    "name": "精品家纺"
+                    }
+                ]
+        }
+
+    }
+]

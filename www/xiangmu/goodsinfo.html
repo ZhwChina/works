@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <link rel="stylesheet" type="text/css" href="css/goodsinfo.css">
+    <link rel="stylesheet" type="text/css" href="css/Reset.css">
+    <script src="src/jquery-1.11.1.min.js"></script>
+    <script src="src/jquery.cookie.js"></script>
+    <script src="src/bigPic.js"></script>
+    <script src="src/goodsinfo.js"></script>
+    <script>
+        $(document).ready(function () {
+            topHide();
+            setInDown();
+            buycars();
+            bigPic();
+            goBuyCar()
+            toTop();
+            erweima();
+            lists();
+            centerJson();
+            fixBox();
+            fixBtn();
+         
+
+
+        })
+    </script>
+
+</head>
+
+<body>
+    <div id="mainbox">
+
+        <div id="topnav">
+            <ul id="ulL">
+                <li>
+                    <a href="#"><img src="imgs/phone.bmp">手机版</a>|</li>
+                <li><span>您好，欢迎来拍鞋网！</span></li>
+            </ul>
+            <a href="denglu.html"><img src="imgs/qingdenglu.bmp"></a>
+            <a href="zhuce.html"><span>免费注册</span></a>
+            <ul id="ulR">
+                <li>
+                    <a href="buycars.html"><img src="imgs/gouwuche.bmp">购物车<span>（0）</span></a>|</li>
+                <li><a href="denglu.html">我的拍鞋<img src="imgs/jiantouxia.bmp"></a>|</li>
+
+                <li><a href="#">消息</a>|</li>
+                <li><a href="#">会员俱乐部</a>|</li>
+                <li><a href="#">网站导航</a></li>
+
+            </ul>
+            <div class="more1">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">我的收藏</a></li>
+                    <li><a href="#">我的优惠劵</a></li>
+                </ul>
+            </div>
+            <div class="more2">
+                <ul>
+
+                    <li><a href="#">商家入驻</a></li>
+                    <li><a href="#">了解拍卖</a></li>
+                    <li><a href="#">拍鞋公益</a></li>
+                    <li><a href="#">网站地图</a></li>
+                    <li><a href="#">新手帮助</a></li>
+
+                </ul>
+            </div>
+            <div id="navhidebox"></div>
+        </div>
+
+        <div id="logobox">
+            <a href="index.html"><img src="imgs/logo.jpg" class="logoimg"></a>
+            <div id="searchBox">
+                <img src="imgs/fangdajing.jpg">
+                <input type="text" id="searchGoods">
+                <div id="search"><a href="#">搜索</a></div>
+                <ul id="searchList">
+                    <li><a href="#" class="redList">最高减200</a></li>
+                    <li><a href="#">跑步鞋</a></li>
+                    <li><a href="#">男士凉鞋</a></li>
+                    <li><a href="#" class="redList">女士凉鞋</a></li>
+                    <li><a href="#">小白鞋</a></li>
+                    <li><a href="#">百搭T恤</a></li>
+                    <li><a href="#" class="redList">99元封顶</a></li>
+                </ul>
+            </div>
+            <a href="#"><img id="wechat" src="imgs/erweima.jpg"></a>
+            <div id="logobottom">
+                <a href="#"><img src="imgs/shangpinfenlei.jpg">全部商品分类</a>
+            </div>
+            <ul id="logoUL">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">爱团购</a></li>
+                <li><a href="#">闪购</a></li>
+                <li><a href="#">今日特价</a></li>
+            </ul>
+            <img id="youliao" src="imgs/youliao.jpg">
+            <img id="xinban" src="imgs/xinban.jpg">
+        </div>
+        <div id="goodszoom">
+            <div id="erweimaBox"><img src="imgs/erweima3.png"></div>
+            <p><a href="index.html">拍鞋首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span><a href="#">东堤名方旗舰店</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><i>东帝名坊旗舰店凉鞋</i></p>
+            <div id="imgBox"></div>
+            <ul id="btns">
+                <li><img src="imgs/zoomimg2.jpg" alt=""></li>
+                <li><img src="imgs/zoomimg3.jpg" alt=""></li>
+                <li><img src="imgs/zoomimg4.jpg" alt=""></li>
+                <li><img src="imgs/zoomimg5.jpg" alt=""></li>
+                <li><img src="imgs/zoomimg6.jpg" alt=""></li>
+            </ul>
+            <div id="zoomRBox">
+                <h3 id="goods-name">东帝名坊2016夏季尖头水钻舒适低方跟搭扣包头韩版女 凉鞋 890-1</h3>
+                <br>
+                <p>限时促销：&yen;<span id="price">39.00</span></p><div id="progress"><i></i></div>
+                <input type="hidden" name="" value="8901" id="goods-id">
+                <div id="goodsIfo">
+                    <div id="left">
+                        颜色：<img id="goods-img" src="imgs/zoomimg1.jpg" alt="">
+                    </div>
+                    <div>
+                        尺码：
+                        <label for="size1">35</label>
+                        <label for="size2">36</label>
+                        <label for="size3">37</label>
+                        <label for="size4">38</label>
+                        <label for="size5">39</label>
+                        <input type="radio" name="size" id="size1" value="35">
+                        <input type="radio" name="size" id="size2" value="36">
+                        <input type="radio" name="size" id="size3" value="37" checked>
+                        <input type="radio" name="size" id="size4" value="38">
+                        <input type="radio" name="size" id="size5" value="39">
+                    </div>
+                    <p>
+                        数量：
+                        <input type="number" name="number" id="number" max="6" min="1" value="1">
+                    </p>
+                    <div id="add-goods" class="carDCButton"><a href="javascript:void(0);">
+        <span class="R-left"></span><span class="R-right"></span>
+        <span class="R-top"></span><span class="R-bottom"></span>
+        加入购物车
+    </a></div>
+                    <div id="buyNow" class="carDCButton2"><a href="javascript:void(0);">
+        <span class="R-left"></span><span class="R-right"></span>
+        <span class="R-top"></span><span class="R-bottom"></span>
+        立即付款
+    </a></div>
+                </div>
+
+            </div>
+        </div>
+        <div id="shopIfo">
+            <div id="shopName"><img src="imgs/shoplogo.jpg"><a href="#">东帝名坊旗舰店</a></div>
+            <div id="shoucang">
+                店铺信誉&nbsp;&nbsp;:&nbsp;&nbsp;<img src="imgs/ifoxingxing.jpg">
+                <br> 在线客服&nbsp;&nbsp;:&nbsp;&nbsp;
+                <a href="#"><img src="imgs/jiqiren.jpg"></a>
+                <br>
+                <span><a href="#">进入店铺</a></span><span><a href="#">收藏店铺</a></span>
+            </div>
+            <div id="youhui">
+                <p>优惠活动:</p>
+                <span><a href="#">满59元减10元;满159元减30元;满199元减50元;</a></span>
+            </div>
+            <div id="goodsList1">
+                最近浏览商品
+                <ul>
+                    <li>
+                        <a href="#"><img src="imgs/ifoimglist1.jpg"></a>&yen;409</li>
+                    <li>
+                        <a href="#"><img src="imgs/ifoimglist2.jpg"></a>&yen;1409</li>
+                    <li>
+                        <a href="#"><img src="imgs/ifoimglist3.jpg"></a>&yen;2409</li>
+                    <li>
+                        <a href="#"><img src="imgs/ifoimglist4.jpg"></a>&yen;3409</li>
+                </ul>
+            </div>
+        </div>
+        <div id="navCenBox">
+            <ul>
+                <li>商品详情</li>
+                <li>用户评论</li>
+                <li>购物保障</li>
+                <li>支付与配送</li>
+            </ul>
+            <img src="imgs/erweima4.jpg">
+
+        </div>
+
+        <div id="centerBox">
+            <div id="fixBox">
+                <ul>
+                    <li>商品详情</li>
+                    <li>用户评论</li>
+                    <li>购物保障</li>
+                    <li>支付与配送</li>
+                </ul>
+            </div>
+            <div id="goodsifor">
+                <ul>
+                    <li><a href="#">货号：东帝名坊 890-1</a></li>
+                    <li><a href="#">分类：女鞋</a></li>
+                    <li><a href="#">鞋帮高度：低帮</a></li>
+                    <li><a href="#">跟高：中跟(3-5cm)</a></li>
+                    <li><a href="#">适用对象：青年</a></li>
+                    <li><a href="#">帮面材质：PU</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">品牌：东帝名坊</a></li>
+                    <li><a href="#">鞋码偏差：正常</a></li>
+                    <li><a href="#">场合：日常</a></li>
+                    <li><a href="#">性别：女</a></li>
+                    <li><a href="#">图案：纯色</a></li>
+                    <li><a href="#">皮质特征：软面</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">款式：女凉鞋</a></li>
+                    <li><a href="#">闭合方式：一字式扣带</a></li>
+                    <li><a href="#">风格：韩版</a></li>
+                    <li><a href="#">后帮：包跟</a></li>
+                    <li><a href="#">鞋底材质：橡胶</a></li>
+                    <li><a href="#">鞋跟形状：方跟</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">颜色：银色</a></li>
+                    <li><a href="#">适合季节：夏季</a></li>
+                    <li><a href="#">凉鞋款式：罗马鞋</a></li>
+                    <li><a href="#">侧帮：空</a></li>
+                    <li><a href="#">鞋头款式：包头</a></li>
+                    <li><a href="#">商品编码：1262505</a></li>
+                </ul>
+            </div>
+            <div id="largeBox">
+                <div id="large">
+                    <ul>
+                        <li><img src="imgs/goodsifolarge1.jpg"></li>
+                        <li><img src="imgs/goodsifolarge2.jpg"></li>
+                        <li><img src="imgs/goodsifolarge3.jpg"></li>
+                    </ul>
+                </div>
+                <div id="large2"></div>
+                <div id="large3"></div>
+                <div id="large4"></div>
+            </div>
+        </div>
+
+        <div id="graybottom">
+            <ul>
+                <li><img src="imgs/bottom1.jpg"><a href="#"><span>正品保证&nbsp;假一赔十</span></a></li>
+                <li><img src="imgs/bottom2.jpg"><a href="#"><span>货到付款&nbsp;全国范围</span></a></li>
+                <li><img src="imgs/bottom3.jpg"><a href="#"><span>十天保值&nbsp;差价返回</span></a></li>
+                <li><img src="imgs/bottom4.jpg"><a href="#"><span>满129包邮</span></a></li>
+                <li><img src="imgs/bottom5.jpg"><a href="#"><span>十五天无理由退换货</span></a></li>
+            </ul>
+        </div>
+        <div id="bottom2">
+            <div id="bottom2L">
+                <span>新手帮助</span>
+                <span>支付方式</span>
+                <span>售后服务</span>
+                <span>关于拍鞋网</span>
+                <span>客服中心</span>
+                <ul>
+                    <li><a href="#">注册会员</a></li>
+                    <li><a href="#">如何购物</a></li>
+                    <li><a href="#">拍鞋币说明</a></li>
+                    <li><a href="#">优惠劵说明</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">支付宝快捷支付</a></li>
+                    <li><a href="#">网银快捷支付</a></li>
+                    <li><a href="#">货到付款</a></li>
+                    <li><a href="#">运费说明</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">退换货政策说明</a></li>
+                    <li><a href="#">退款详细说明</a></li>
+                    <li><a href="#">如何办理退换货</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">了解拍鞋网</a></li>
+                    <li><a href="#">商家入驻</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">拍鞋招聘</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">客服电话：4008 81 82 83</a></li>
+                    <li><a href="#">售后专线：0595-83092222</a></li>
+                    <li><a href="#">服务时间：周一到周日8:00-23:30</a></li>
+                </ul>
+            </div>
+            <div id="bottom2R">
+                <div id="bottom2R1">
+                    <p>拍鞋客户端</p>
+                    <span>随时随地败家</span>
+                    <img src="imgs/erweima1.jpg">
+                </div>
+                <div id="bottom2R2">
+                    <p>拍鞋客户端</p>
+                    <span>随时随地败家</span>
+                    <img src="imgs/erweima1.jpg" id="erweima">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="imgs/xinlang.jpg"><i>新浪微博</i>
+                                <buttom>+ 加关注</buttom>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="imgs/xingxing.jpg"><i>腾讯微博</i>
+                                <buttom>+ 加关注</buttom>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="bottom3">
+            <p>Copyright © 2007-2016 Paixie.net All Rights Reserved 闽B2-20110084</p>
+            <img src="imgs/bottom6.jpg">
+        </div>
+    </div>
+    <div id="outside">
+        <div id="buycars"><img src="imgs/gouwuge11.jpg"></div>
+        <div id="hidebuy"></div>
+        <div id="goTop"><img src="imgs/totop1.jpg"></div>
+    </div>
+</body>
+
+</html>

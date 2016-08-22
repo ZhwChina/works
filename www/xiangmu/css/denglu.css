@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f5f5f5;font-size: 12px;color: #666;font-family: "微软雅黑";}
+#mainbox{width:1090px;height:600px;margin:0 auto;background:#fff}
+#Logobox{height:160px;width:100%;background:#f5f5f5}
+#Logobox img{margin:40px 40px 40px 85px;float:left}
+#Logobox p{margin:70px 0 0 10px;float:left;font-size:22px}
+#centerBox{width:1090px;height:370px;margin:0 auto;background:#fff;padding:30px 0;position:relative;border:1px solid #CCC}
+#centerBox p{position:absolute;top:400px;left:200px;font-size:12px}
+#boxL{width:550px;height:370px;background:#fff;margin-left:50px;display:inline-block}
+#boxL img{float:left}
+#boxR{width:480px;height:400px;float:right}
+#boxR p{float:right}
+
+#topbox span{color:#333;font-size:16px;margin-right:10px}
+#topbox i{font-size:12px;color:#999;font-style:normal;margin-right:15px}
+#topbox a{font-size:13px;color:#09C;}
+#box1{width:300px;height:40px;margin-top:20px}
+#box1 input{width:200px;height:30px}
+#box1 img{vertical-align:middle}
+#box2{width:300px;height:40px;margin-top:20px}
+#box2 input{width:200px;height:30px;margin-left:5px}
+#box2 img{vertical-align:middle;}
+#box3{width:300px;height:40px;margin-top:20px}
+#box3 span{font-size:12px;color:#999;margin-right:60px;line-height:15px}
+#box3 a{color:#09C;font-size:13px}
+#btns{width:220px;height:30px;border:none;background:#f60;color:#fff;font-size:16px;cursor:pointer}
+#logoBox{width:300px;height:25px;padding-top:5px}
+#logoBox i{font-size:13px;color:#666}

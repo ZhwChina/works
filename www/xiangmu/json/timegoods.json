@@ -1,0 +1,18 @@
+[
+    {
+        "div1":{
+            "imgs":[{"src":"imgs/timedown1.jpg"},{"src":"imgs/timedown2.jpg"},{"src":"imgs/timedown3.jpg"},{"src":"imgs/timedown4.jpg"},{"src":"imgs/timedown5.jpg"},{"src":"imgs/timedown6.jpg"}],
+            "dates":[{"times":""},{"times":""},{"times":""},{"times":""},{"times":""},{"times":""}],
+            "delprice":[{"delp":"99"},{"delp":"99"},{"delp":"99"},{"delp":"99"},{"delp":"99"},{"delp":""}],
+            "goodsprices":[{"prices":"89"},{"prices":"89"},{"prices":"89"},{"prices":"90"},{"prices":"56"},{"prices":"86"}]
+        }
+    },
+    {
+        "div2":{
+            "imgs":[{"src":"imgs/timedown7.jpg"},{"src":"imgs/timedown8.jpg"},{"src":"imgs/timedown9.jpg"},{"src":"imgs/timedown10.jpg"},{"src":"imgs/timedown11.jpg"},{"src":"imgs/timedown12.jpg"}],
+            "dates":[{"times":""},{"times":""},{"times":""},{"times":""},{"times":""},{"times":""}],
+            "delprice":[{"delp":"99"},{"delp":"99"},{"delp":"99"},{"delp":"100"},{"delp":"100"},{"delp":""}],
+            "goodsprices":[{"prices":"68"},{"prices":"86"},{"prices":"45"},{"prices":"99"},{"prices":"36"},{"prices":"45"}]
+        }
+    }
+]
